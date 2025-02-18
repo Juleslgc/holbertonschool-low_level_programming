@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
  * main - assign a random number to the variable n
  * and whether it is positive or negative.
- * RETURN : returns 0 in end.
+ * Return: return 0 in end.
  */
-
 int main(void)
 {
 	int n;
