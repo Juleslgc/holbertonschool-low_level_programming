@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * reset_to_98 - Function that takes a pointer to 98.
- * @*n: It's a pointer.
+ * @n: It's a pointer.
  * Return: return void in end.
  */
 
