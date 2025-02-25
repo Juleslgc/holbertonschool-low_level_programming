@@ -11,28 +11,29 @@ int main(void)
 	int c = 5;
 
 	for (num = 1 ; num <= 100 ; num++)
-        {
-                if ((num%t) == 0 && (num%c) == 0)
-                {
-                        printf("FizzBuzz");
-                }
-                else if ((num%t) == 0)
-                {
-                        printf("Fizz");
-                }
-                else if ((num%c) == 0)
-                {
-                        printf("Buzz");
-                }
+	{
+		if ((num % t) == 0 && (num % c) == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if ((num % t) == 0)
+		{
+			printf("Fizz");
+		}
+		else if ((num % c) == 0)
+		{
+			printf("Buzz");
+		}
 		else
 		{
 			printf("%d", num);
 		}
-                putchar(' ');
-                
-        }
-
+		if (num == 100)
+		{
+			continue;
+		}
+		putchar(' ');
+	}
 	putchar('\n');
 	return (0);
 }
-
