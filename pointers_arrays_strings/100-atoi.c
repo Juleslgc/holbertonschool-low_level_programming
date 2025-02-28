@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int j;
 	int sign = 1;
 
-	for ( i = 0 ; ((s[i] < '0' || s[i] > '9') && s[i] != '\0') ; i++)
+	for (i = 0 ; ((s[i] < '0' || s[i] > '9') && s[i] != '\0') ; i++)
 	{
 		if (s[i] == '-')
 		{
