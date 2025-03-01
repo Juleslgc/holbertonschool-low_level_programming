@@ -9,6 +9,8 @@
 
 char *string_toupper(char *a)
 {
+	char *p = a;
+
 	for (; *a != '\0' ; a++)
 	{
 		if (*a >= 'a' && *a <= 'z')
@@ -17,6 +19,5 @@ char *string_toupper(char *a)
 		}
 	}
 
-	return (a);
+	return (p);
 }
-
