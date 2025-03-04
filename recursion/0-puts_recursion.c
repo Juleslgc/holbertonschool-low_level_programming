@@ -7,13 +7,17 @@
  * Return: return void in end.
  */
 
- void _puts_recursion(char *s)
- {
-    int i;
+void _puts_recursion(char *s)
+{
+	int i;
+	char j = 'n';
 
-    for (i = 0; s[i] != '\0' ; i++)
-    {
-         _putchar(s[i]); 
-    }
-    _putchar('\n');
- }
+	for (i = 0; s[i] != '\0' ; i++)
+	{
+		if (i < j)
+		{
+			_putchar(s[i]);
+		}
+	}
+	_putchar('\n');
+}
