@@ -5,6 +5,7 @@
 !*.c
 !*.h
 !*.md
+!*3-main.c
 
 #Ignore *main.c
 *-main.c
