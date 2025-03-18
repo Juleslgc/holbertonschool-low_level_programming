@@ -7,7 +7,7 @@
 !*.md
 
 #Ignore *main.c
-!*-main.c
+*-main.c
 # Include all folders with files
 !*/
 Betty/
