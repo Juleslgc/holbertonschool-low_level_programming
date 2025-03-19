@@ -7,5 +7,17 @@ int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
+void print_all(const char * const format, ...);
 
+/**
+ * struct tp - Different type of print
+ *
+ * @tp: Type of print
+ * @f: The function associated
+ */
+typedef struct tp
+{
+	char *tp;
+	void (*f)(va_list);
+} tp_t;
 #endif
