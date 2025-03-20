@@ -71,15 +71,15 @@ void print_all(const char * const format, ...)
 	va_start(args, format);
 
 	i = 0;
-	while (t[i].tp != NULL)
+	while (format != NULL && format[i] != 0)
 	{
 		j = 0;
-		while (format[j] != 0)
+		while (t[j].tp != NULL)
 		{
-			if (*t[i].tp == format[j])
+			if (*t[j].tp == format[i])
 			{
 				printf("%s", separator);
-				t[i].f(args);
+				t[j].f(args);
 				separator = ", ";
 			}
 		j++;
