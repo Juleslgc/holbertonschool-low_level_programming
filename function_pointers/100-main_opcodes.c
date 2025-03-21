@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	else
+	if (j > 0)
 	{
 		for (i = 0 ; i < j - 1 ; i++)
 		{
@@ -32,6 +32,5 @@ int main(int argc, char *argv[])
 		}
 		printf("\n");
 	}
-
 	return (0);
 }
