@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int j;
-	unsigned char *p = (char *)main;
+	unsigned char *p = (unsigned char *)main;
 
 	if (argc != 2)
 	{
@@ -28,9 +28,9 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0 ; i < (j - 1) ;)
 		{
-			printf("%02x ", p[i++]);
+			printf("%02hhx ", p[i++]);
 		}
-		printf("%hx\n", p[i]);
+		printf("%hhx\n", p[i]);
 	}
 	return (0);
 }
