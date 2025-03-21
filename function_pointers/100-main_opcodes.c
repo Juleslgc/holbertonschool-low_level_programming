@@ -24,10 +24,14 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	for (i = 0 ; i < j - 1 ; i++)
+	else
 	{
-		printf("%02x ", p[i]);
+		for (i = 0 ; i < j - 1 ; i++)
+		{
+			printf("%02x ", p[i]);
+		}
+		printf("\n");
 	}
-	printf("\n");
+
 	return (0);
 }
