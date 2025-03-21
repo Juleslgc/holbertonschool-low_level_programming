@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * 
+ * main - Program that  prints the opcodes of its own main function.
+ * @argc: It's a count argument.
+ * @argv: It's a argument.
+ * Return: return int in end.
  */
 
 int main(int argc, char *argv[])
@@ -24,8 +27,7 @@ int main(int argc, char *argv[])
 	for (i = 0 ; i < j ; i++)
 	{
 		printf("%02x ", p[i]);
-		
 	}
-	printf("\n");
+	printf("%02x\n", p[i]);
 	return (0);
 }
