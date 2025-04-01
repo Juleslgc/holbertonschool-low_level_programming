@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_list - Function that free the list.
- * @head: It's a pointer that pointe the beginning the list.
+ * @head: It's a pointer that pointe the list.
  * Return: return void in end.
  */
 
